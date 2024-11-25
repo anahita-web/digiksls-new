@@ -1,0 +1,958 @@
+.amazing__offer__container{
+    width: 100%;
+    height: 350px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .amazing__offer__item{
+        width: 1336px;
+        height: 294.04px;
+        background-color: #D82F4E;
+        padding: 20px 0;
+        border-radius: 16px;
+        .amazing__offer__right{
+            width: 100%;
+            height: 254.04px;
+            background-color: #d82f4e;
+            cursor: pointer;
+            color: white;
+            .amazing__offer__image__container{
+                width: 94px;
+                height: 216px;
+                /* background-color: aqua; */
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                gap: 12px;
+                margin: 0 auto;
+                .svg__right__1{
+                    width: 88px;
+                    height: 88px;
+                }
+                .svg__right__2{
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .see__all__right{
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 12px;
+            }
+            .see__all__svg{
+                width: 18px;
+                height: 18px;
+                fill: white;
+            }
+        }
+        .amazing__offer__slide__1{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__1__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__1__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__1__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__1__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__1__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__1__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__1__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__1__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__2{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__2__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__2__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__2__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__2__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__2__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__2__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__2__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__2__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__3{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__3__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__3__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__3__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__3__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__3__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__3__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__3__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__3__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__4{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__4__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__4__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__4__text{
+                width: 139px;
+                /* height: 40px; */
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            .slide__4__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                .slide__4__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__4__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__4__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__4__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__5{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__5__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__5__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__5__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__5__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__5__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__5__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__5__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__5__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__6{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__6__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__6__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__6__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__6__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__6__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    color: #3f4064;
+                    gap: 4px;
+                    .slide__6__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__6__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__6__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__7{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__7__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__7__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__7__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__7__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__7__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__7__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__7__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__7__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__8{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__8__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__8__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__8__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__8__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__8__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__8__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__8__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__8__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__9{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__9__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__9__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__9__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__9__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__9__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__9__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__9__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__9__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__10{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__10__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__10__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__10__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__10__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                .slide__10__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__10__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__10__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__10__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__11{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__11__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__11__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__11__text{
+                width: 139px;
+                height: 40px;
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+            }
+            .slide__11__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__11__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__11__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__11__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__11__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .amazing__offer__slide__12{
+            width: 100%;
+            height: 249px;
+            /* background-color: lightgreen; */
+            margin: 0 0 0 2px;
+            padding: 8px;
+            cursor: pointer;
+            .slide__12__image__container{
+                width: 139px;
+                height: 127px;
+                /* background-color: lightskyblue; */
+                margin: 0 auto;
+                display: flex;
+                justify-content: center;
+                .slide__12__image{
+                    width: 127px;
+                    height: 127px;
+                }
+            }
+            .slide__12__text{
+                width: 139px;
+                /* height: 40px; */
+                margin: 8px 0;
+                font-size: 12px;
+                color: #62666d;
+                display: -webkit-box;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+            }
+            .slide__12__price__container{
+                width: 100%;
+                height: 24px;
+                /* background-color: darkcyan; */
+                direction: ltr;
+                display: flex;
+                
+                .slide__12__price__item{
+                    width: 105px;
+                    height: 24px;
+                    /* background-color: #d82f4e; */
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 4px;
+                    color: #3f4064;
+                    .slide__12__toman__svg{
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+                .slide__12__discount{
+                    width: 34px;
+                    height: 20px;
+                    background-color: #D82F4E;
+                    border-radius: 25px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                }
+            }
+            .slide__12__price__line{
+                width: 42.09px;
+                height: 21px;
+                /* background-color: orange; */
+                margin: 0 75.9125px 0 0;
+                font-size: 12px;
+                color: #c0c2c5;
+                text-decoration: line-through;
+                line-height: 21px;
+            }
+        }
+        .slide__see__all{
+            width: 100%;
+            height: 249px;
+            /* background-color: aquamarine; */
+            padding: 0px 32px;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            .see__all__circle{
+                width: 51.2px;
+                height: 51.2px;
+                /* background-color: red; */
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 3px solid #19BFD3;
+                cursor: pointer;
+                .see__all__svg{
+                    width: 32px;
+                    height: 32px;
+                    fill: #19BFD3;
+                }
+            }
+            .see__all__text{
+                width: 76px;
+                /* height: 30px; */
+                margin: 12px 0 0;
+                font-size: 14px;
+                font-weight: 400;
+                cursor: pointer;
+            }
+        }
+    }
+}

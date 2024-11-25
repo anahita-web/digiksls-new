@@ -1,0 +1,334 @@
+.head{
+    width: 1568px;
+    /* background-color: aquamarine; */
+    padding: 0px 16px;
+    .first{
+        width: 1528px;
+        height: 60px;
+    }
+    .first__head{
+        width: 1496px;
+        height: inherit;
+        /* background-color: blue; */
+        padding: 12px 0;
+        display: flex;
+        position: sticky;
+        top: 0;
+        .right__head{
+            width: 1297px;
+            height: 44px;
+            /* background-color: red; */
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            .digi__logo{
+                width: 195px;
+                height: 30px;
+            }
+            .search__box{
+                width: 600px;
+                height: 45px;
+                background-color: #F0F0F1;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                .search__icon{
+                    width: 24px;
+                    height: 24px;
+                    fill: #A1A3A8;
+                    margin-right: 20px;
+                }
+                .search{
+                    outline: none;
+                    border: unset;
+                    width: 100%;
+                    background-color: #F0F0F1;
+                    font-size: 12px;
+                    font-size: 15px;
+                }
+            }
+        }
+        .left__head{
+            width: 199.41px;
+            height: 44px;
+            /* background-color: deepskyblue; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .left__head__item{
+                width: 134.41px;
+                height: 40px;
+                border: 1px solid #E8E8E9;
+                border-radius: 8px;
+                /* background-color: orangered; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                .left__head__item__information{
+                    width: 100.81px;
+                    height: 26.04px;
+                    font-size: 12px;
+                    /* background-color: green; */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 6.3px;
+                    color: #0C0C0C;
+                    .enter__icon{
+                        width: 24px;
+                        height: 24px;
+                        fill: #424750;
+                    }
+                }
+            }
+            .line{
+                width: 1px;
+                height: 24px;
+                background-color: #E0E0E2;
+                margin: 0px 12px;
+            }
+            .basket{
+                width: 40px;
+                height: 40px;
+                /* background-color: deeppink; */
+                padding: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .basket__icon{
+                    width: 24px;
+                    height: 24px;
+                    fill: #424750;
+                }
+            }
+        }
+    }
+    .bottom__head{
+        width: 1528px;
+        height: 40px;
+        /* background-color: deepskyblue; */
+        padding: 0px 16px;
+        display: flex;
+        .category{
+            width: 140.05px;
+            height: inherit;
+            /* background-color: deeppink; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            &:hover{
+                &::before{
+                    transform: unset;
+                }
+            }
+            .category__item{
+                width: 140.05px;
+                height: 30.1px;
+                /* background-color: blueviolet; */
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                gap: 4px;
+                color: #3f4064;
+                &::before{
+                    content: "";
+                    display: inline-block;
+                    width: 100%;
+                    height: 1px;
+                    background-color: red;
+                    position: absolute;
+                    bottom: 0;
+                    transform: translateX(-100%);
+                    transition: 300ms;
+                }
+                .category__icon{
+                    width: 20px;
+                    height: 20px;
+                    fill: #424750;
+                }
+            }
+            .line__two{
+                width: 1px;
+                height: 16px;
+                background-color: #E0E0E2;
+            }
+        }
+        .amazing{
+            width: 115.9px;
+            height: inherit;
+            /* background-color: aquamarine; */
+            padding: 0px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .amazing__item{
+                width: 91.9px;
+                height: 26.04px;
+                /* background-color: rgb(141, 50, 163); */
+                font-size: 12px;
+                color: #62666d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                .amazing__icon{
+                    width: 18px;
+                    height: 18px;
+                    fill: #A1A3A8;
+                }
+            }
+        }
+        .super__market{
+            width: 101.64px;
+            height: inherit;
+            /* background-color: orangered; */
+            padding: 0px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .super__market__item{
+                width: 77.64px;
+                height: 22.04px;
+                /* background-color: olive; */
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #62666d;
+                gap: 1px;
+                .super__market__icon{
+                    width: 18px;
+                    height: 39.05px;
+                    fill: #A1A3A8;
+                }
+            }
+        }
+        .gift__card{
+            width: 101.4px;
+            height: inherit;
+            /* background-color: darkseagreen; */
+            padding: 0px 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .gift__card__item{
+                width: 77.04px;
+                height: 26.04px;
+                /* background-color: magenta; */
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3.3px;
+                color: #62666d;
+                .gift__card__icon{
+                    width: 18px;
+                    height: 18px;
+                    fill: #a1a3a8;
+                }
+            }
+        }
+        .best__seller{
+            width: 120.88px;
+            height: inherit;
+            /* background-color: navajowhite; */
+            padding: 0px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .best__seller__item{
+                width: 96.88px;
+                height: 26.04px;
+                /* background-color: hotpink; */
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #62666d;
+                gap: 4px;
+                .best__seller__icon{
+                    width: 18px;
+                    height: 18px;
+                    fill: #A1A3A8;
+                }
+            }
+        }
+        .offer{
+            width: fit-content;
+            height: 40px;
+            /* background-color: red; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0px 12px;
+            .offer__item{
+                width: fit-content;
+                height: 26.04px;
+                /* background-color: goldenrod; */
+                font-size: 12px;
+                color: #62666d;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 6px;
+                .offer__icon{
+                    width: 18px;
+                    height: 18px;
+                    fill: #A1A3A8;
+                }
+            }
+            .line__three{
+                width: 1px;
+                height: 16px;
+                background-color: #E0E0E2;
+                margin: 0px 12px;
+            }
+        }
+        .question{
+            width: fit-content;
+            height: inherit;
+            /* background-color: yellow; */
+            padding: 0px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .question__item{
+                width: 100%;
+                height: 26.04px;
+                text-align: justify;
+                /* background-color: green; */
+                font-size: 12px;
+                color: #62666d;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: justify;
+            }
+        }
+        .bottom__left__head{
+            width: 173.13px;
+            height: inherit;
+            font-size: 12px;
+            /* background-color: red; */
+            padding: 0 0 4px;
+            margin-right: 460px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #3F4064;
+            .location__icon{
+                width: 20px;
+                height: 20px;
+                fill: #424750;
+            }
+        }
+
+    }
+}

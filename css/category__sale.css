@@ -1,0 +1,83 @@
+.category__sale__container{
+    width: 100%;
+    height: 456.1px;
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    .category__sale__item{
+        width: 1336px;
+        height: 456.1px;
+        /* background-color: lightskyblue; */
+        padding: 16px 0 40px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .category__sale__title{
+            width: fit-content;
+            height: 44.1px;
+            font-size: 21px;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 36px;
+        }
+        .category__sale__row__1{
+            width: 1174.55px;
+            height: 160px;
+            /* background-color: cyan; */
+            display: flex;
+            justify-content: space-between;
+            .row__1__container{
+                width: 139.82px;
+                height: 160px;
+                /* background-color: lightgrey; */
+                padding: 0 16px;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                cursor: pointer;
+                .row__1__image{
+                    width: 100px;
+                    height: 100px;
+                }
+                .row__1__text{
+                    width: fit-content;
+                    height: 26.04px;
+                    margin: 8px 0 0;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 2.17;
+                }
+            }
+        }
+        .category__sale__row__2{
+            width: 1174.55px;
+            height: 160px;
+            /* background-color: orange; */
+            display: flex;
+            justify-content: space-between;
+            .row__2__container{
+                width: 139.82px;
+                height: 160px;
+                /* background-color: lightgrey; */
+                padding: 0 16px;
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                cursor: pointer;
+                .row__2__image{
+                    width: 100px;
+                    height: 100px;
+                }
+                .row__2__text{
+                    width: fit-content;
+                    height: 26.04px;
+                    margin: 8px 0 0;
+                    font-size: 12px;
+                    text-align: center;
+                    line-height: 2.17;
+                }
+            }
+        }
+    }
+}

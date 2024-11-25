@@ -1,0 +1,22 @@
+.two__image__container{
+    width: 100%;
+    height: 264px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    .two__image__item{
+        width: 1336px;
+        height: 264px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        .two__image__image{
+            width: 660px;
+            height: 264px;
+            border-radius: 16px;
+        }
+    }
+}

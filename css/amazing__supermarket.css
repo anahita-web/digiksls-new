@@ -1,0 +1,288 @@
+.amazing__supermarket__container{
+    width: 100%;
+    height: 110px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    .amazing__supermarket__item{
+        width: 1336px;
+        height: 110px;
+        background-image: url("https://www.digikala.com/statics/img/svg/typography/freshPattern.svg");
+        background-repeat: no-repeat;
+        background-color: #ECEFEE;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        .amazing__supermarket__right{
+            width: 466.11px;
+            height: 62px;
+            /* background-color: aqua; */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .basket__supermarket{
+                width: 66px;
+                height: 62px;
+            }
+            .supermarket__offer{
+                width: 110.11px;
+                height: 28px;
+                background-color: #029a49;
+                padding: 0 12px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .supermarket__offer__text{
+                    width: fit-content;
+                    color: white;
+                    font-size: 14px;
+                }
+            }
+        }
+        .amazing__supermarket__left{
+            width: 677.14px;
+            height: 74px;
+            /* background-color: lightskyblue; */
+            margin: 0 16px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            direction: ltr;
+            .kala__70{
+                width: 144.14px;
+                height: 50.04px;
+                background-color: white;
+                border-radius: 9999px;
+                font-size: 12px;
+                color: #029a49;
+                font-weight: 700;
+                direction: rtl;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 5px;
+                cursor: pointer;
+                .kala__70__svg{
+                    width: 20px;
+                    height: 20px;
+                    fill: #029a49;
+                }
+            }
+            .supermarket__left__circle{
+                width: 492px;
+                height: 74px;
+                /* background-color: lightgreen; */
+                display: flex;
+                .supermarket__circle__1{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__1__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .circle__1__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .supermarket__circle__2{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__2__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+                    .circle__2__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .supermarket__circle__3{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__3__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .circle__3__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .supermarket__circle__4{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__4__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .circle__4__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .supermarket__circle__5{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__5__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .circle__5__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                .supermarket__circle__6{
+                    width: 74px;
+                    height: 74px;
+                    color: rgb(0, 0, 0);
+                    border-radius: 50%;
+                    margin: 0 0 16px 8px;
+                    padding: 8px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    .circle__6__image{
+                        width: 58px;
+                        height: 58px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                    .circle__6__discount{
+                        width: 34px;
+                        height: 20px;
+                        padding: 0 4px;
+                        background-color: #d32f2f;
+                        border-radius: 16px;
+                        font-size: 12px;
+                        font-weight: 700;
+                        color: white;
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+}
